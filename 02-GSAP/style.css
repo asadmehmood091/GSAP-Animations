@@ -30,12 +30,6 @@ body {
   height: 100%;
   width: 100%;
   background-color: grey;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 50px;
-  justify-content: center;
 }
 .page3 {
   height: 100%;
@@ -53,9 +47,6 @@ body {
 
 .page2 h2 {
   font-size: 40vw;
-  position: relative;
-  padding: 10px;
-  margin: 0;
-  font-weight: 600px;
+  font-weight: 600;
   text-transform: uppercase;
 }
