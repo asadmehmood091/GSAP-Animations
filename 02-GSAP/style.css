@@ -11,7 +11,51 @@ body {
   height: 100%;
   width: 100%;
 }
-
+body {
+  overflow-x: hidden;
+}
 body {
   background-color: #111;
+}
+
+.page1 {
+  height: 100%;
+  width: 100%;
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page2 {
+  height: 100%;
+  width: 100%;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+}
+.page3 {
+  height: 100%;
+  width: 100%;
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+}
+
+#box {
+  height: 300px;
+  width: 300px;
+  background-color: crimson;
+}
+
+.page2 h2 {
+  font-size: 40vw;
+  position: relative;
+  padding: 10px;
+  margin: 0;
+  font-weight: 600px;
+  text-transform: uppercase;
 }
